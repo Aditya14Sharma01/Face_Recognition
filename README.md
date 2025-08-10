@@ -23,6 +23,13 @@ A comprehensive Python-based computer vision system for real-time human face rec
 - **`models/age_net.caffemodel`** - Pre-trained age estimation model
 - **`models/gender_net.caffemodel`** - Pre-trained gender classification model
 
+## 📸 Photos
+
+Sample photos for testing the face recognition system:
+
+- **Photo (1).png** - Sample image for testing face detection and analysis
+- **Photo (2).png** - Additional sample image for validation
+
 ## 🛠️ Prerequisites
 
 - Python 3.7 or higher
@@ -107,64 +114,6 @@ python gpu-Recog.py
 - Enhanced brightness/contrast
 - Press ESC or close window to quit
 
-## 📸 Sample Photos & Testing
-
-### Adding Sample Photos
-Create a `samples/` folder in your repository root:
-```
-Hard/
-├── samples/
-│   ├── test_images/
-│   │   ├── neutral_face.jpg      # Neutral expression for testing
-│   │   └── sad_face.jpg          # Sad expression for testing
-│   └── test_videos/              # Optional: for video testing
-│       └── [add_video_files]
-├── models/
-├── cpu-Recog.py
-├── gpu-Recog.py
-└── README.md
-```
-
-### 📝 Testing Memo & Progress Tracker
-
-Keep track of your testing progress and photo analysis results here:
-
-#### Test Session 1 - [Date]
-- **Photo**: `samples/test_images/neutral_face.jpg`
-- **Results**: Age: [Add result], Gender: [Add result], Emotion: Neutral
-- **Accuracy**: [Add your assessment]
-- **Notes**: [Add your observations]
-
-#### Test Session 2 - [Date]
-- **Photo**: `samples/test_images/sad_face.jpg`
-- **Results**: Age: [Add result], Gender: [Add result], Emotion: Sad
-- **Accuracy**: [Add your assessment]
-- **Notes**: [Add your observations]
-
-#### Issues Found
-- [ ] Issue 1: [Description]
-- [ ] Issue 2: [Description]
-- [ ] Issue 3: [Description]
-
-#### Improvements Made
-- [x] [Date] Fixed [specific issue]
-- [x] [Date] Optimized [specific feature]
-- [ ] [Date] Plan to improve [specific area]
-
-### Testing with Sample Images
-You can modify the scripts to test with sample images instead of webcam:
-```python
-# Replace webcam capture with image reading
-frame = cv2.imread('samples/test_images/person1.jpg')
-```
-
-### Recommended Sample Types
-- **Single Person**: Clear face, good lighting
-- **Multiple People**: Group photos for multi-face detection
-- **Different Ages**: Various age groups for age estimation testing
-- **Different Emotions**: Various facial expressions for emotion analysis
-- **Different Lighting**: Various lighting conditions for robustness testing
-
 ## ⚙️ Configuration
 
 ### Performance Tuning
@@ -219,10 +168,6 @@ Both versions use RetinaFace as the detector backend for optimal accuracy. You c
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
