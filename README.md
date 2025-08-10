@@ -26,9 +26,9 @@ A comprehensive Python-based computer vision system for real-time human face rec
 ## 📸 Photos
 
 Sample photos for testing the face recognition system:
-![Photos/Photo (1).png](Photos/Photo (1).png)
+![Photos/Photo(1).png](Photos/Photo(1).png)
 - **Photo (1).png** - Sample image for testing face detection and analysis
-![Photos/Photo (2).png](Photos/Photo (2).png)
+![Photos/Photo(2).png](Photos/Photo(2).png)
 - **Photo (2).png** - Additional sample image for validation
 
 ## 🛠️ Prerequisites
